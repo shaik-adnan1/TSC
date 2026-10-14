@@ -47,8 +47,18 @@ const asAlwaysStudent = true;
 let minAge = age >= 6 ? true : false;
 
 let user: undefined;
-console.log(user);
+// console.log(user);
 
 let userRole: null;
 userRole = null;
-console.log(userRole);
+// console.log(userRole);
+
+console.log(userRole === user);
+
+if (!userRole) {
+  console.log("This condition is true");
+}
+
+if (!user) {
+  console.log("This condition is true");
+}

@@ -36,8 +36,15 @@ let isStudent = false;
 const asAlwaysStudent = true;
 let minAge = age >= 6 ? true : false;
 let user;
-console.log(user);
+// console.log(user);
 let userRole;
 userRole = null;
-console.log(userRole);
+// console.log(userRole);
+console.log(userRole === user);
+if (!userRole) {
+    console.log("This condition is true");
+}
+if (!user) {
+    console.log("This condition is true");
+}
 //# sourceMappingURL=index.js.map
